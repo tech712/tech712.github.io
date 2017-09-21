@@ -1,6 +1,7 @@
 /* HTML Tags */
 html,body{
     height: 100%;
+    background: #f6f6f6;
 }
 body,div,h1,h2,h3,h4,h5,p,ul,li{
     margin: 0 auto;
@@ -27,25 +28,50 @@ p{
 }
 .contents{
     text-align: center;
+    margin:10em auto;
 }
 
 /* Page 1 */
-#page1 p{ 
+#page1{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background: url("./img/portrait.jpg") no-repeat;  
+    background-position: left bottom;
+    background-size:100% auto;
+    z-index: 0;
+}
+#page1 .texts{
     width:80%;
-    margin-top:1em;
+    background:rgba(246,246,246,0.8);
+    padding:4%;
+}
+#page1 p{
+    margin-top:2em;
 }
 @media screen and (min-width:1000px){
-    #page1 p{  width:50%; }
-}
-.portrait{
-    width:10em;
-    height:10em;
-    border-radius: 50%;
-    margin:1em;
+    #page1{
+        background-size:40% auto;
+    }
+    #page1 .texts{
+        width:40%;
+        margin-left:40%;
+    }
+    #page1 p{
+        margin-top:2em;
+    }
 }
 /* page 2 */
-#page2{
-    margin-bottom:10%;
+.pages{
+    position: absolute;
+    background: #fff;
+    top:100%;
+    z-index: 1;
+    width:100%;
+    box-shadow: 0 0 1em #DDDDE0;
+}
+#page2 h2{
+    margin-top:3em;
 }
 #page2 h2,#page2 h3{
     text-align: center;
