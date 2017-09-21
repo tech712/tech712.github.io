@@ -1,0 +1,54 @@
+{
+    "mainSkills":{
+        "1":{
+            "img":"img/business.png",
+            "title":"商业分析",
+            "sub_title":"Business Analysis",
+            "content":"可深刻理解（或参与制定）企业战略，商业模型及画布（Business Model/Canvas）。可以站在企业立场分析产品竞争力与重心。"
+        },
+        "2":{
+            "img":"img/structure.png",
+            "title":"产品管理",
+            "sub_title":"Product Management",
+            "content":"可进行完整产品周期设计，了解产品组合管理。参与过瀑布式和敏捷式的开发流程。熟练掌握可视化模型预言（UML），对业务与逻辑可进行详细准确的分析与阐述。了解Gamification设计和用户激励模型。"
+        },
+        "3":{
+            "img":"img/UX.png",
+            "title":"交互设计",
+            "sub_title":"Wireframe Design",
+            "content":"可以熟练使用Photoshop, Adobe XD, Sketch等工具产出线框图，交互图。可快速产出交互Demo协助产品验证。也可帮助UI设计师产出交互设计。了解Function-Focus Design 和 Human-Focus Design。"
+        },
+        "4":{
+            "img":"img/document.png",
+            "title":"文档输出",
+            "sub_title":"Document Writing",
+            "content":"可独立产出前端式，敏捷式，瀑布式PRD文档。熟练制作泳道／业务流程图，时序图，甘特图等可视化模型语言进行项目／逻辑阐述，以及版本规划。"
+        }
+    },
+    "otherSkills":{
+        "1":{
+            "img":"img/development.png",
+            "title":"全栈开发",
+            "sub_title":"Full-Stack Development",
+            "content":"3年半的PHP+MySQL后端开发经验，也做过一段时间React+Redux工程化前端开发。理解MVC, 理解RESTful设计模式。"
+        },
+        "2":{
+            "img":"img/design.png",
+            "title":"设计",
+            "sub_title":"Designing",
+            "content":"熟练掌握Photoshop，Sketch。业余时间会做一些Logo，网站，APP，等平面设计作为消遣。"
+        },
+        "3":{
+            "img":"img/interier.png",
+            "title":"室内设计",
+            "sub_title":"Interier Design",
+            "content":"曾在新加坡南洋艺术学院（Nanyang Academy of Fine Arts）辅修过室内设计，学习过图纸绘制，建材区分，CAD2D建模等课程。"
+        },
+        "4":{
+            "img":"img/camera.png",
+            "title":"摄影",
+            "sub_title":"Photography",
+            "content":"Canon 5d mark iii, Fujifilm X-T1, Fujifilm X100 - X100F 重度用户。爱好人文，风景，人像摄影。熟练掌握热靴式／立式闪光灯，有棚拍经验。"
+        }
+    }
+}
