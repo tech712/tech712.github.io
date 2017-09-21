@@ -28,7 +28,15 @@ p{
 }
 .contents{
     text-align: center;
-    margin:10em auto;
+    margin:14em auto;
+}
+.pages{
+    position: absolute;
+    background: #fff;
+    top:100%;
+    z-index: 1;
+    width:100%;
+    box-shadow: 0 0 1em #DDDDE0;
 }
 
 /* Page 1 */
@@ -65,16 +73,8 @@ p{
     }
 }
 /* page 2 */
-.pages{
-    position: absolute;
-    background: #fff;
-    top:100%;
-    z-index: 1;
-    width:100%;
-    box-shadow: 0 0 1em #DDDDE0;
-}
 #page2 h2{
-    margin-top:3em;
+    margin-top:8em;
 }
 #page2 h2,#page2 h3{
     text-align: center;
@@ -115,12 +115,12 @@ p{
 }
 
 /* Page 3 */
+#page3 h2{
+    margin-top:8em;
+}
 #page3 h2,#page3 h3{
     text-align: center;
     align-items: center;
-}
-#page3 h2{
-    margin-top:3em;
 }
 #page3 ul{
     margin:2em auto;
