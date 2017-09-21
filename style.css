@@ -42,9 +42,10 @@ p{
     z-index: 0;
 }
 #page1 .texts{
-    width:80%;
-    background:rgba(246,246,246,0.8);
-    padding:4%;
+    background:rgba(246,246,246,0.5);
+    padding:10%;
+    height:100%;
+    margin-top:10em;
 }
 #page1 p{
     margin-top:2em;
@@ -56,6 +57,8 @@ p{
     #page1 .texts{
         width:40%;
         margin-left:40%;
+        height:auto;
+        margin-top:0;
     }
     #page1 p{
         margin-top:2em;
