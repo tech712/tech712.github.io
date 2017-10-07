@@ -1,7 +1,7 @@
 $(document).ready(function () {  
     $.getJSON("json/articles.json",function(data){
         var pageid=GetQueryString('page'); 
-        var article="<img class='title-img' src='articles/"+pageid+"/cover.jpg'><h1>"+data.articles[pageid].title+"</h1><h5>"+data.articles[pageid].date_time+"</h5>";
+        var article="<img class='title-img' src='articles/"+pageid+"/cover.png'><h1>"+data.articles[pageid].title+"</h1><h5>"+data.articles[pageid].date_time+"</h5>";
         $("#article_title").append(article);
         $("#article_content").load('articles/'+pageid+'/content.html');
         $("title").html(data.articles[pageid].title+' - 思路的文章'); 

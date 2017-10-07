@@ -1,4 +1,13 @@
 $(document).ready(function () {  
+    //projects
+    // $.getJSON("json/projects.json",function(data){
+    //     var projects="";
+    //     $.each(data.projects,function(k,adata){
+    //         projects+="<li onclick='gotoPage(\""+adata.link+"\")'><img src='./projects/"+adata.link+"/cover.jpg'/><h4>"+adata.title+"</h4><h5>"+adata.date_time+"</h5></li>";
+    //     }); 
+    //     $("#projects").append(projects); 
+    // });
+
     //skills
     $.getJSON("json/skills.json",function(data){
         //main skills
@@ -20,10 +29,13 @@ $(document).ready(function () {
     $.getJSON("json/articles.json",function(data){
         var articles="";
         $.each(data.articles,function(k,adata){
-            articles+="<li onclick='gotoPage(\""+adata.link+"\")'><img src='./articles/"+adata.link+"/cover.jpg'/><h4>"+adata.title+"</h4><h5>"+adata.date_time+"</h5></li>";
+            articles+="<li onclick='gotoPage(\""+adata.link+"\")'><h4>"+adata.title+"</h4><h5>"+adata.date_time+"</h5></li>";
         }); 
         $("#articles").append(articles); 
     });
+
+    
+    
 
 });  
 
