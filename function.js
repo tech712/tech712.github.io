@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     //photography:
     var photography="";
-    for(var i=0;i<25;i++){
+    for(var i=0;i<15;i++){
         photography+="<li><img src='./img/photography/"+(i+1)+".jpg' /></li>";
     }
     $("#photography ul").append(photography);
