@@ -176,9 +176,10 @@ p{
 #design .contents{
     width:80%;
 }
-#design h1{
-    text-align: center;
-    margin-bottom:1em;
+#design p{
+    font-size:0.5em;
+    margin-top:0.5em;
+    margin-bottom:3em;
 }
 #design li{
     float: left;
@@ -203,6 +204,39 @@ p{
     }
 }
 
+
+/* ---------- design2 ---------- */
+#design2{
+    background: #cccdc8;
+}
+#design2 .contents{
+    width:80%;
+}
+#design2 p{
+    font-size:0.5em;
+    margin-top:0.5em;
+    margin-bottom:3em;
+}
+#design2 li{
+    float: left;
+    width:33%;
+    height:10em;
+}
+#design2 li img{
+    width:100%;
+}
+
+@media screen and (max-width:1000px){
+    #design2 .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    #design2 li{
+        float: left;
+        width:100%;
+        margin:0;
+    }
+}
 
 /* ---------- photography ---------- */
 #photography{

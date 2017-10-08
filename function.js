@@ -32,6 +32,13 @@ $(document).ready(function () {
     }
     $("#design ul").append(design);
 
+    //design2:
+    var design2="";
+    for(var i=0;i<3;i++){
+        design2+="<li><img src='./img/design2/"+(i+1)+".jpeg' /></li>";
+    }
+    $("#design2 ul").append(design2);
+
     //photography:
     var photography="";
     for(var i=0;i<15;i++){
