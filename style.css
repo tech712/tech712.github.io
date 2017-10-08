@@ -80,7 +80,7 @@ p{
     }
     #home .contents{
         width:90%;
-        margin-left:10%;
+        margin:3em auto;
     }
 }
 
@@ -98,7 +98,7 @@ p{
 #skills li{
     float: left;
     width:46%;
-    margin-right:4%;
+    margin-right:3%;
 }
 #skills li *{
     width:100%;
@@ -213,8 +213,12 @@ p{
     opacity: 0.95
 }
 #photography .contents{
-    width:80%;
+    width:90%;
     margin:5em auto;
+}
+#photography h1{
+    text-align: center;
+    margin-bottom:1em;
 }
 #photography li{
     float: left;
@@ -228,13 +232,13 @@ p{
 
 @media screen and (max-width:1000px){
     #photography .contents{
-        width:90%;
-        margin:3em auto;
+        width:100%;
+        margin:3em 0;
     }
     #photography li{
         float: left;
-        width:100%;
-        margin:0;
+        width:31%;
+        margin-left:1%;
     }
 }
 
@@ -242,4 +246,7 @@ p{
 /* ---------- contact ---------- */
 #contact img{
     width:9em;
+}
+#contact h5{
+    text-align: center;
 }

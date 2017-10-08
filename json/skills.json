@@ -11,14 +11,14 @@
             "content":"可以熟练使用Photoshop, Adobe XD, Sketch等工具产出线框图，交互图。可快速产出交互Demo协助产品验证。也可帮助UI设计师产出交互设计。了解Function-Focus Design 和 Human-Focus Design。"
         },
         "3":{
-            "id":"3",
-            "name":"Document Writing",
-            "content":"可独立产出前端式，敏捷式，瀑布式PRD文档。熟练制作泳道／业务流程图，时序图，甘特图等可视化模型语言进行项目／逻辑阐述，以及版本规划。"
-        },
-        "4":{
             "id":"4",
             "name":"Full-Stack Development",
             "content":"4年的PHP+MySQL后端开发经验，也做过一段时间React+Redux工程化前端开发。理解MVC, 理解RESTful设计模式。"
+        },
+        "4":{
+            "id":"3",
+            "name":"Document Writing",
+            "content":"可独立产出前端式，敏捷式，瀑布式PRD文档。熟练制作泳道／业务流程图，时序图，甘特图等可视化模型语言进行项目／逻辑阐述，以及版本规划。"
         }
     }
 }
