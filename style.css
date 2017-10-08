@@ -184,7 +184,6 @@ p{
 #design li{
     float: left;
     width:30%;
-    height:10em;
     margin-right:3%;
     margin-top:3%;
 }
@@ -220,7 +219,6 @@ p{
 #design2 li{
     float: left;
     width:33%;
-    height:10em;
 }
 #design2 li img{
     width:100%;
