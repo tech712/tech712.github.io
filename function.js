@@ -1,44 +1,41 @@
-$(document).ready(function () {  
-    //projects
-    // $.getJSON("json/projects.json",function(data){
-    //     var projects="";
-    //     $.each(data.projects,function(k,adata){
-    //         projects+="<li onclick='gotoPage(\""+adata.link+"\")'><img src='./projects/"+adata.link+"/cover.jpg'/><h4>"+adata.title+"</h4><h5>"+adata.date_time+"</h5></li>";
-    //     }); 
-    //     $("#projects").append(projects); 
-    // });
-
-    //skills
+$(document).ready(function () {
+    //skills:
     $.getJSON("json/skills.json",function(data){
-        //main skills
-        var mainSkills="";
-        $.each(data.mainSkills,function(k,msdata){
-            mainSkills+="<li><img src='"+msdata.img+"'/><h4>"+msdata.title+"</h4><h5>"+msdata.sub_title+"</h5><p>"+msdata.content+"</p></li>";
-        }); 
-        $("#mainSkills").append(mainSkills); 
-        
-        //other skills
-        var otherSkills="";
-        $.each(data.otherSkills,function(k,osdata){
-            otherSkills+="<li><img src='"+osdata.img+"'/><h4>"+osdata.title+"</h4><h5>"+osdata.sub_title+"</h5><p>"+osdata.content+"</p></li>";
-        }); 
-        $("#otherSkills").append(otherSkills);
+        var skills="";
+        $.each(data.skills,function(k,v){
+            skills+="<li>"+
+                        "<img src='./img/skills/"+v.id+".png'/>"+
+                        "<h4>"+v.name+"</h4>"+
+                        "<p>"+v.content+"</p>"+
+                    "</li>";
+        });
+        $("#skills ul").append(skills);
     });
 
-    //articles
-    $.getJSON("json/articles.json",function(data){
-        var articles="";
-        $.each(data.articles,function(k,adata){
-            articles+="<li onclick='gotoPage(\""+adata.link+"\")'><h4>"+adata.title+"</h4><h5>"+adata.date_time+"</h5></li>";
-        }); 
-        $("#articles").append(articles); 
+    //experiences:
+    $.getJSON("json/experiences.json",function(data){
+        var experiences="";
+        $.each(data.experiences,function(k,v){
+            experiences+="<li style='background:url(\"./img/experiences/"+v.id+".png\") no-repeat;background-size:100% 100%;'>"+
+                            "<h3>"+v.name+"</h3>"+
+                            "<h4>"+v.en_name+"</h4>"+
+                            "<h5>"+v.period+" "+v.job+"</h5>"+
+                         "</li>";
+        });
+        $("#experiences ul").append(experiences);
     });
 
-    
-    
+    //design:
+    var design="";
+    for(var i=0;i<6;i++){
+        design+="<li><img src='./img/design/"+(i+1)+".png' /></li>";
+    }
+    $("#design ul").append(design);
 
-});  
-
-function gotoPage(link){
-    $(location).attr('href', "article.html?page="+link);
-}
+    //photography:
+    var photography="";
+    for(var i=0;i<25;i++){
+        photography+="<li><img src='./img/photography/"+(i+1)+".jpg' /></li>";
+    }
+    $("#photography ul").append(photography);
+});

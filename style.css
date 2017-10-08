@@ -3,345 +3,243 @@ html,body{
     height: 100%;
     background: #f6f6f6;
 }
-body,div,h1,h2,h3,h4,h5,p,ul,li{
+body,div,h1,h2,h3,h4,h5,p,ul,li,a{
     margin: 0 auto;
     padding: 0;
-    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#363636;
-}
-a{
-    color:#2887D9;
-}
-ul,li{
-    list-style:none;
+    list-style: none;
+    text-decoration: none;
 }
 p{
     text-align:justify;
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
 }
-/* Generel */
+
+/* ---------- public ---------- */
 .full-page{
     flex:1;
-    height:100%;
+    min-height:100%;
     display: flex; 
     justify-content: center; 
     align-items: center;
 }
-.contents{
-    text-align: center;
-    margin:14em auto;
-}
-.pages{
-    position: absolute;
-    background: #fff;
-    top:100%;
-    z-index: 1;
+
+/* ---------- nav ---------- */
+.nav{
+    position: fixed;
+    background:#f6f6f6;
     width:100%;
-    box-shadow: 0 0 1em #DDDDE0;
+    z-index:100;
+    top:0;
+    left:0;
+}
+.nav li{
+    display: inline-flex;
+    margin:1em 0;
+    margin-left:2em;
+}
+.nav a{
+    color:#363636;
+}
+.nav a:hover{
+    color:#747474;
 }
 
-/* Page 1 */
-#page1{
-    position: fixed;
-    width:100%;
-    height: 100%;
+@media screen and (max-width:1000px){
+    .nav{
+        display: none;
+    }
+}
+
+/* ---------- home ---------- */
+#home{
     background: url("./img/portrait.jpg") no-repeat;  
     background-position: left bottom;
-    background-size:100% auto;
-    z-index: 0;
+    background-size:40% auto;
 }
-#page1 .texts{
-    background:rgba(246,246,246,0.5);
-    padding:10%;
-    height:100%;
-    margin-top:10em;
+#home .contents{
+    width:40%;
+    margin-left:50%;
 }
-#page1 p{
-    margin-top:2em;
+#home h2{
+    font-size:1.3em;
+    color:#747474;
 }
-@media screen and (min-width:1000px){
-    #page1{
-        background-size:40% auto;
+#home p{
+    letter-spacing: 0em;
+    margin-top:1em;
+}
+
+@media screen and (max-width:1000px){
+    #home{
+        background: url("./img/portrait.jpg") no-repeat;  
+        background-position: left bottom;
+        background-size:50% auto;
     }
-    #page1 .texts{
-        width:40%;
-        margin-left:40%;
-        height:auto;
-        margin-top:0;
-    }
-    #page1 p{
-        margin-top:2em;
-    }
-}
-/* page 6 */
-#page6 h2{
-    margin-top:8em;
-}
-#page6 h2,#page6 h3{
-    text-align: center;
-    align-items: center;
-}
-#page6 ul{
-    margin:2em auto;
-    display: flex;
-    width:90%;
-    flex-wrap: wrap;
-}
-#page6 li h5{
-    color:#888;
-    margin-bottom:1em;
-}
-#page6 li{
-    width:98%;
-    margin:2% 1%;
-    flex-direction: column;
-    align-items: flex-start;
-    border-bottom:1px solid #aaa;
-    cursor: pointer;
-}
-#page6 img{
-    width:100%;
-}
-@media screen and (min-width:1000px){
-    #page6 ul{
-        width:80%;
-    }
-    #page6 li{
-        width:31%;
-        margin:1%;
-    }
-    #page6 li:hover{
-        border-bottom:2px solid #000;
-    }
-}
-/* page 2 */
-#page2 h2{
-    margin-top:8em;
-}
-#page2 h2,#page2 h3{
-    text-align: center;
-    align-items: center;
-}
-#page2 ul{
-    margin:2em auto;
-    display: flex;
-    width:90%;
-    flex-wrap: wrap;
-}
-#page2 li h5{
-    color:#888;
-    margin-bottom:1em;
-}
-#page2 li{
-    width:98%;
-    margin:2% 1%;
-    flex-direction: column;
-    align-items: flex-start;
-    border-bottom:1px solid #aaa;
-    cursor: pointer;
-}
-#page2 img{
-    width:100%;
-}
-@media screen and (min-width:1000px){
-    #page2 ul{
-        width:80%;
-    }
-    #page2 li{
-        width:31%;
-        margin:1%;
-    }
-    #page2 li:hover{
-        border-bottom:2px solid #000;
+    #home .contents{
+        width:90%;
+        margin-left:10%;
     }
 }
 
-/* page 5 */
-#page5{
+/* ---------- skills ---------- */
+#skills{
+    background:#2b2b2b;
+}
+#skills *{
+    color:#f6f6f6;
+    opacity: 0.95
+}
+#skills .contents{
+    width:80%;
+}
+#skills li{
+    float: left;
+    width:46%;
+    margin-right:4%;
+}
+#skills li *{
+    width:100%;
+}
+#skills img{
+    max-width:5em;
+    margin:3em auto 0.5em auto;
+}
+#skills p{
+    margin-top:0.5em;
+    font-size:0.7em;
+}
 
+@media screen and (max-width:1000px){
+    #skills .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    #skills li{
+        float: left;
+        width:100%;
+    }
 }
-#page5 h2{
-    margin-top:8em;
+
+
+/* ---------- experiences ---------- */
+#experiences{
+    background: #fff;
 }
-#page5 h2,#page5 h3{
+#experiences .contents{
+    width:80%;
+}
+#experiences li{
+    float: left;
+    width:30%;
+    height:10em;
+    margin-right:3%;
+    margin-top:3%;
+    border-radius: 1em;
+    box-shadow: 0 0 1em #ececec;
+    cursor: pointer;
+}
+#experiences li:hover{
+    opacity: 0.9;
+}
+#experiences li *{
+    color:#f6f6f6;
+}
+#experiences li h3{
     text-align: center;
-    align-items: center;
+    margin-top:3em;
 }
-#page5 ul{
-    margin:2em auto;
-    display: flex;
-    width:90%;
-    flex-wrap: wrap;
+#experiences li h4{
+    text-align: center;
+    margin-bottom:2em;
 }
-#page5 li{
-    width:100%;
-    flex-direction: column;
-    align-items: flex-start;
+#experiences li h5{
+    font-size:0.3em;
+    margin-left:1em;
 }
-#page5 li img{
-    display: flex;
-    width:100%;
-    margin:1em auto;
-}
-@media screen and (min-width:1000px){
-    #page5 ul{
-        width:80%;
+
+@media screen and (max-width:1000px){
+    #experiences .contents{
+        width:90%;
+        margin:3em auto;
     }
-    #page5 li{
-        width:33%;
-        margin:0;
+    #experiences li{
+        float: left;
+        width:100%;
     }
-    #page5 li img{
+}
+
+
+/* ---------- design ---------- */
+#design .contents{
+    width:80%;
+}
+#design h1{
+    text-align: center;
+    margin-bottom:1em;
+}
+#design li{
+    float: left;
+    width:30%;
+    height:10em;
+    margin-right:3%;
+    margin-top:3%;
+}
+#design li img{
+    width:100%;
+}
+
+@media screen and (max-width:1000px){
+    #design .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    #design li{
+        float: left;
         width:100%;
         margin:0;
     }
 }
-/* Page 3 */
-#page3 h2{
-    margin-top:8em;
-}
-#page3 h2,#page3 h3{
-    text-align: center;
-    align-items: center;
-}
-#page3 ul{
-    margin:2em auto;
-    display: flex;
-    width:90%;
-    flex-wrap: wrap;
-}
-#page3 li{
-    width:46%;
-    margin:2%;
-    flex-direction: column;
-    align-items: flex-start;
-}
-#page3 li img{
-    display: flex;
-    width:70%;
-    max-width:6em;
-    margin:1em auto;
-}
-
-@media screen and (min-width:1000px){
-    #page3 ul{
-        width:80%;
-    }
-    #page3 li{
-        width:21%;
-        margin:2%;
-    }
-    #page3 li img{
-        width:50%;
-    }
-}
-#page3 li h4,#page3 li h5{
-    flex:1;
-    text-align: center;
-}
-#page3 li p{
-    margin-top:0.5em;
-    font-size:0.5em;
-    color:#888;    
-}
-
-/* Page 4 */
-
-.qrcode{
-    opacity: 0.7;
-    max-width: 10em;
-}
-.contact-group{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top:3em;
-}
-.contact-item{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center;
-    margin:0 1em;
-    font-size:0.8em;
-}
-.contact-item img{
-    max-width:3em;
-    margin:1em;
-}
 
 
-
-
-/* article page */
-#article_page{
-    width: 100%;
-    margin-top:0;
+/* ---------- photography ---------- */
+#photography{
+    background:#2b2b2b;
 }
-#article_page .title-img{
-    margin:3%;
-    width:3em;
+#photography *{
+    color:#f6f6f6;
+    opacity: 0.95
 }
-#article_title h1,#article_title h5{
-    margin:0 3%;
+#photography .contents{
+    width:80%;
+    margin:5em auto;
 }
-#article_content{
-    margin:3%;
-}
-#article_content img{
-    margin:1em 0;
-    max-width: 100%;
-}
-#article_content h3{
-    margin-top:2em;
-}
-#article_content h4{
-    color:#EC9736;
-}
-#article_content p{
-    margin:1em 0;
-}
-#article_page button{
-    float:left;
-    background:#363636;
-    color:#fff;
-    padding:1.5em 6em;
-    margin-top:3em;
-    border:none;
-    cursor: pointer;
-}
-#article_page button:hover{
-    background:#000;
-}
-.bds_weixin{
+#photography li{
     float: left;
-    width:3em;
-    height: 3.75em;
-    margin:1.75em;
-    background:#000;
-    display: flex;
-    background:url(./img/weixin.png) no-repeat;
-    background-size:100% 100%;
-    cursor: pointer;
+    width:19%;
+    margin-right:1%;
+    margin-top:1%;
+}
+#photography li img{
+    width:100%;
+}
+
+@media screen and (max-width:1000px){
+    #photography .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    #photography li{
+        float: left;
+        width:100%;
+        margin:0;
+    }
 }
 
 
-@media screen and (min-width:1000px){
-    #article_page{
-        width: 1000px;
-    }
-    #article_page .title-img{
-        margin:3% 0;
-        width:5em;
-    }
-    #article_content img{
-        max-width:600px;
-    }
-    .bds_weixin{
-        margin:2em;
-    }
-    #article_title h1,#article_title h5{
-        margin:0;
-    }
-    #article_content{
-        margin:0;
-    }
+/* ---------- contact ---------- */
+#contact img{
+    width:9em;
 }
