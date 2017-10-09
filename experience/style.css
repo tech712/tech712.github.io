@@ -11,10 +11,16 @@ body,div,h1,h2,h3,h4,h5,p,ul,li,a{
     list-style: none;
     text-decoration: none;
 }
+body{
+    padding-bottom:4em;
+}
+a{
+    color:#1595eb;
+}
 p{
     text-align:justify;
     line-height: 1.5em;
-    margin:1em 0;
+    margin:0.5em 0;
 }
 
 /* ---------- public ---------- */
@@ -59,24 +65,53 @@ p{
 /* ---------- content ---------- */
 #page{
     width:1000px;
-    margin:100px auto;
+    margin:5em auto;
 }
 h3{
     color:#747474;
     margin:0.5em 0;
 }
-#content{
-    margin-top:3em;
-}
 #content h2{
-    margin:2em 0 0.5em 0;
+    width:100%;
+    text-align: center;
+    margin:7em 0 1em 0;
 }
 #content img{
     max-width:100%;
 }
+#content .show{
+    width:30%;
+    border-radius: 1em;
+    border:1px solid #eeeeee;
+}
 #content iframe{
     width:100%;
     min-height:400px;
+}
+#content *{
+    float:left;
+}
+#content li{
+    width:30%;
+    margin-right:3%;
+    margin-top:3%;
+    text-align: center;
+}
+#content li h4{
+    width:100%;
+    text-align: center;
+    font-size:2em;
+    margin:0.4em 0 0 0;
+    color:#1595eb;
+}
+#content li h5{
+    color:#747474;
+    width:100%;
+    text-align: center;
+}
+#content li img{
+    border-radius: 1em;
+    border:1px solid #eeeeee;
 }
 
 @media screen and (max-width:1000px){
@@ -90,5 +125,9 @@ h3{
     }
     #content iframe{
         min-height:200px;
+    }
+    #content li{
+        float: left;
+        width:100%;
     }
 }

@@ -9,34 +9,13 @@
         },
         "2":{
             "id":"2",
-            "name":"微前台小程序",
-            "en_name":"Mini Program",
-            "period":"2016-2017",
-            "job":"产品负责人"
-        },
-        "3":{
-            "id":"3",
-            "name":"微前台管家企业微信",
-            "en_name":"Enterprise WeChat",
-            "period":"2016-2017",
-            "job":"产品负责人"
-        },
-        "4":{
-            "id":"4",
-            "name":"魔镜",
-            "en_name":"Smart MOJ",
-            "period":"2016-2017",
-            "job":"产品负责人"
-        },
-        "5":{
-            "id":"5",
             "name":"趣住啊民宿预定平台",
             "en_name":"Bnbtrip",
             "period":"2016",
             "job":"产品负责人"
         },
-        "6":{
-            "id":"6",
+        "3":{
+            "id":"3",
             "name":"Access Point Controller",
             "en_name":"Compex System Singapore",
             "period":"2011-2014",
