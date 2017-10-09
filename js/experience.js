@@ -1,11 +1,17 @@
 $(document).ready(function () {  
     $.getJSON("./json/experiences.json",function(data){
-        var pageid=GetQueryString('page'); 
-        var article="<h1>"+data.experiences[pageid].name+"</h1>"+
-                    "<h2>"+data.experiences[pageid].en_name+"</h2>"+
-                    "<h3>"+data.experiences[pageid].period+" "+data.experiences[pageid].job+"</h3>";
+        var pageid=GetQueryString('page');
+        var v;
+        for(var i in data.experiences){
+            if(data.experiences[i].id==pageid){
+                v=data.experiences[i];
+            }
+        }
+        var article="<h1>"+v.name+"</h1>"+
+                    "<h2>"+v.en_name+"</h2>"+
+                    "<h3>"+v.period+" "+v.job+"</h3>";
         $("#title").append(article);
-        $("#content").load('./experience/'+pageid+'/content.html');
+        $("#content").load('./experience/'+v.id+'/content.html');
     });
 });
 

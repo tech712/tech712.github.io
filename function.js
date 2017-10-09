@@ -50,3 +50,6 @@ $(document).ready(function () {
 function gotoPage(type,link){
     $(location).attr('href', "./"+type+".html?page="+link);
 }
+function up(x,y){
+    return x.value-y.value
+}

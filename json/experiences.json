@@ -1,25 +1,25 @@
 {
-    "experiences":{
-        "1":{
-            "id":"1",
+    "experiences":[
+        {
+            "id":"2017",
             "name":"微信生态酒店",
             "en_name":"Wechat Ecological Hotel",
             "period":"2016-2017",
             "job":"微前台项目产品负责人"
         },
-        "2":{
-            "id":"2",
+        {
+            "id":"2016",
             "name":"趣住啊民宿预定平台",
             "en_name":"Bnbtrip",
             "period":"2016",
             "job":"产品负责人"
         },
-        "3":{
-            "id":"3",
+        {
+            "id":"2011",
             "name":"Access Point Controller",
             "en_name":"Compex System Singapore",
             "period":"2011-2014",
             "job":"研发工程师"
         }
-    }
+    ]
 }
