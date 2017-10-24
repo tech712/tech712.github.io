@@ -18,6 +18,7 @@ a{
     color:#1595eb;
 }
 p{
+    width:100%;
     text-align:justify;
     line-height: 1.5em;
     margin:0.5em 0;
