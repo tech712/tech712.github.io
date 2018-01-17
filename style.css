@@ -57,7 +57,7 @@ p{
 #home{
     background: url("./img/portrait.jpg") no-repeat;  
     background-position: left bottom;
-    background-size:40% auto;
+    background-size:30% auto;
 }
 #home .contents{
     width:40%;
