@@ -3,22 +3,22 @@
         "1":{
             "id":"1",
             "name":"Product Management",
-            "content":"深入理解企业战略, 可进行完整产品周期设计，了解产品组合管理。参与过瀑布式和敏捷式的开发流程。熟练掌握可视化模型预言（UML），对业务与逻辑可进行详细准确的分析与阐述。了解Gamification设计和用户激励模型。"
+            "content":"深入理解企业战略, 可进行完整产品周期设计，了解产品组合管理。参与过瀑布式和敏捷式的开发流程。产品基本功扎实，有带产品及UED团队经验。"
         },
         "2":{
             "id":"2",
             "name":"Design",
-            "content":"可以熟练使用Photoshop, Adobe XD, Sketch等工具产出线框图，交互图。可快速产出交互Demo协助产品验证。也可帮助UI设计师产出交互设计。了解Function-Focus Design 和 Human-Focus Design。"
+            "content":"可以熟练使用Photoshop, Adobe XD, Sketch等工具产出线框图，交互图。可快速产出交互Demo协助产品验证。了解Function-Focus Design 和 Human-Focus Design。"
         },
         "3":{
-            "id":"4",
+            "id":"3",
             "name":"Full-Stack Development",
-            "content":"4年的PHP+MySQL后端开发经验，也做过一段时间React+Redux工程化前端开发。理解MVC, 理解RESTful设计模式。"
+            "content":"拥有4年PHP+MySQL后端，及React+Redux, React Native, 小程序等工程化前端开发经验。理解传统MVC架构，也理解DDD领域驱动设计模式。"
         },
         "4":{
-            "id":"3",
-            "name":"Document Writing",
-            "content":"可独立产出前端式，敏捷式，瀑布式PRD文档。熟练制作泳道／业务流程图，时序图，甘特图等可视化模型语言进行项目／逻辑阐述，以及版本规划。"
+            "id":"4",
+            "name":"Photography",
+            "content":"Canon 5D MarkIII, Fuji X-T1, Fuji X100, Fuji X100F 玩家。曾在业余时间开过独立摄影棚，拥有数百小时棚拍经验。"
         }
     }
 }
