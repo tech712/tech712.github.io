@@ -1,6 +1,20 @@
 {
     "experiences":[
         {
+            "id":"2018",
+            "name":"BIPO 人力资源",
+            "en_name":"BIPO Service Limited",
+            "period":"2018-Now",
+            "job":"BIPO Lite/Pro Product Manager"
+        },
+        {
+            "id":"20172",
+            "name":"美团·点评",
+            "en_name":"Meituan·Dianping",
+            "period":"2017",
+            "job":"大众点评海外站产品经理"
+        },
+        {
             "id":"2017",
             "name":"微信生态酒店",
             "en_name":"Wechat Ecological Hotel",
@@ -12,7 +26,7 @@
             "name":"趣住啊民宿预定平台",
             "en_name":"Bnbtrip",
             "period":"2016",
-            "job":"产品负责人"
+            "job":"产品经理"
         },
         {
             "id":"2011",
