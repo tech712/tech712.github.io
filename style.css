@@ -14,7 +14,7 @@ body,div,h1,h2,h3,h4,h5,p,ul,li,a{
 p{
     text-align:justify;
     line-height: 1.5em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 
 /* ---------- public ---------- */
@@ -125,6 +125,39 @@ p{
 
 
 /* ---------- experiences ---------- */
+#experiences1{
+    background: #fff url("./img/iphone1.png") no-repeat;  
+    background-position: 20% bottom;
+    background-size:45% auto;
+}
+#experiences1 .contents{
+    width:35%;
+    margin-left:50%;
+}
+#experiences2{
+    background:url("./img/iphone2.png") no-repeat;  
+    background-position: right bottom;
+    background-size:45% auto;
+}
+#experiences2 .contents{
+    width:35%;
+    margin-left:10%;
+}
+.experiences h4{
+    opacity: 0.5;
+    font-size: 0.8em;
+    margin-bottom:2em;
+}
+.experiences a{
+    font-size:0.8em;
+    color:#4b88dd;
+    cursor: pointer;
+}
+.experiences p{
+    font-size:0.8em;
+    margin:0.4em 0;
+}
+
 #experiences{
     background: #fff;
 }
@@ -158,9 +191,28 @@ p{
 #experiences li h5{
     font-size:0.3em;
     margin-left:1em;
-}
+} 
 
 @media screen and (max-width:1000px){
+    #experiences1{
+        background-position: right bottom;
+        background-size:80% auto;
+        align-items:flex-start ;
+    }
+    #experiences1 .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    #experiences2{
+        background-position: right bottom;
+        background-size:100% auto;
+        align-items:flex-start;
+    }
+    #experiences2 .contents{
+        width:90%;
+        margin:3em auto;
+        margin-top:7em;
+    }
     #experiences .contents{
         width:90%;
         margin:3em auto;
