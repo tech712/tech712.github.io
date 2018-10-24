@@ -167,9 +167,6 @@ p{
     margin:0.4em 0;
 }
 
-#experiences{
-    background: #fff;
-}
 #experiences .contents{
     width:80%;
 }
@@ -243,6 +240,9 @@ p{
 
 
 /* ---------- design ---------- */
+#design{
+    background:#fff;
+}
 #design .contents{
     width:80%;
 }
