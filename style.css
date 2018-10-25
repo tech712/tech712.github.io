@@ -70,6 +70,12 @@ p{
 #home p{
     letter-spacing: 0em;
     margin-top:1em;
+    margin-bottom:1em;
+}
+#home img{
+    float:right;
+    margin-left:1em;
+    height:25px;
 }
 
 @media screen and (max-width:1000px){
@@ -152,10 +158,28 @@ p{
     width:35%;
     margin-left:50%;
 }
+#experiences4{
+    background:url("./img/iphone4.png") no-repeat;  
+    background-position: right bottom;
+    background-size:45% auto;
+}
+#experiences4 .contents{
+    width:35%;
+    margin-left:10%;
+}
 .experiences h4{
     opacity: 0.5;
     font-size: 0.8em;
     margin-bottom:2em;
+}
+#experiences5{
+    background: #fff url("./img/apc.png") no-repeat;  
+    background-position: 10% center;
+    background-size:40% auto;
+}
+#experiences5 .contents{
+    width:35%;
+    margin-left:50%;
 }
 .experiences a{
     font-size:0.8em;
@@ -167,7 +191,7 @@ p{
     margin:0.4em 0;
 }
 
-#experiences .contents{
+/* #experiences .contents{
     width:80%;
 }
 #experiences li{
@@ -197,7 +221,7 @@ p{
 #experiences li h5{
     font-size:0.3em;
     margin-left:1em;
-} 
+}  */
 
 @media screen and (max-width:1000px){
     #experiences1{
@@ -228,21 +252,37 @@ p{
         width:90%;
         margin:3em auto;
     }
-    #experiences .contents{
+    #experiences4{
+        background-position: right bottom;
+        background-size:80% auto;
+        align-items:flex-start;
+    }
+    #experiences4 .contents{
+        width:90%;
+        margin:3em auto;
+        margin-top:7em;
+    }
+    #experiences5{
+        background-position: right bottom;
+        background-size:100% auto;
+        align-items:flex-start ;
+    }
+    #experiences5 .contents{
+        width:90%;
+        margin:3em auto;
+    }
+    /* #experiences .contents{
         width:90%;
         margin:3em auto;
     }
     #experiences li{
         float: left;
         width:100%;
-    }
+    } */
 }
 
 
 /* ---------- design ---------- */
-#design{
-    background:#fff;
-}
 #design .contents{
     width:80%;
 }
