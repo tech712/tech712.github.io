@@ -88,6 +88,11 @@ p{
         width:90%;
         margin:3em auto;
     }
+    #home img{
+        float:right;
+        margin-left:0.5em;
+        height:15px;
+    }
 }
 
 /* ---------- skills ---------- */
@@ -191,42 +196,10 @@ p{
     margin:0.4em 0;
 }
 
-/* #experiences .contents{
-    width:80%;
-}
-#experiences li{
-    float: left;
-    width:30%;
-    height:12em;
-    margin-right:3%;
-    margin-top:3%;
-    border-radius: 1em;
-    box-shadow: 0 0 1em #ececec;
-    cursor: pointer;
-}
-#experiences li:hover{
-    opacity: 0.9;
-}
-#experiences li *{
-    color:#f6f6f6;
-}
-#experiences li h3{
-    text-align: center;
-    margin-top:4em;
-}
-#experiences li h4{
-    text-align: center;
-    margin-bottom:2.4em;
-}
-#experiences li h5{
-    font-size:0.3em;
-    margin-left:1em;
-}  */
-
 @media screen and (max-width:1000px){
     #experiences1{
         background-position: right bottom;
-        background-size:80% auto;
+        background-size:60% auto;
         align-items:flex-start ;
     }
     #experiences1 .contents{
@@ -235,7 +208,7 @@ p{
     }
     #experiences2{
         background-position: right bottom;
-        background-size:100% auto;
+        background-size:80% auto;
         align-items:flex-start;
     }
     #experiences2 .contents{
@@ -245,40 +218,31 @@ p{
     }
     #experiences3{
         background-position: right bottom;
-        background-size:80% auto;
+        background-size:50% auto;
         align-items:flex-start ;
     }
     #experiences3 .contents{
         width:90%;
-        margin:3em auto;
+        margin:2em auto;
     }
     #experiences4{
         background-position: right bottom;
-        background-size:80% auto;
+        background-size:70% auto;
         align-items:flex-start;
     }
     #experiences4 .contents{
         width:90%;
         margin:3em auto;
-        margin-top:7em;
     }
     #experiences5{
-        background-position: right bottom;
-        background-size:100% auto;
+        background-position: center bottom;
+        background-size:80% auto;
         align-items:flex-start ;
     }
     #experiences5 .contents{
         width:90%;
         margin:3em auto;
     }
-    /* #experiences .contents{
-        width:90%;
-        margin:3em auto;
-    }
-    #experiences li{
-        float: left;
-        width:100%;
-    } */
 }
 
 
