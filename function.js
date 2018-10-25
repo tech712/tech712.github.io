@@ -12,19 +12,6 @@ $(document).ready(function () {
         $("#skills ul").append(skills);
     });
 
-    //experiences:
-    $.getJSON("json/experiences.json",function(data){
-        var experiences="";
-        $.each(data.experiences,function(k,v){
-            experiences+="<li style='background:url(\"./img/experiences/"+v.id+".jpg\") no-repeat;background-size:100% 100%;' onclick='gotoPage(\"experience\","+v.id+")'>"+
-                            "<h3>"+v.name+"</h3>"+
-                            "<h4>"+v.en_name+"</h4>"+
-                            "<h5>"+v.period+" "+v.job+"</h5>"+
-                         "</li>";
-        });
-        $("#experiences ul").append(experiences);
-    });
-
     //design:
     var design="";
     for(var i=0;i<6;i++){
