@@ -2,22 +2,22 @@
     "skills":{
         "1":{
             "id":"1",
-            "name":"Product Management",
+            "name":"产品组合管理",
             "content":"深入理解企业战略,可进行完整的商业闭环及产品闭环设计，产品周期管理，产品组合管理。熟悉Stage-Gate和Scrum的产品流程，产品基本功扎实。"
         },
         "2":{
             "id":"2",
-            "name":"Data Analysis",
+            "name":"数据分析",
             "content":"重视数据分析, 善于用数据说话。拥有数据分析平台的完整产品设计与搭建经验, 包含但不限于用户人群画像, 条件取样, 用户行为轨迹分析。"
         },
         "3":{
             "id":"3",
-            "name":"Full-Stack Development",
+            "name":"全站开发经验",
             "content":"拥有4年新加坡国际化团队研发经验。主要包含PHP+MySQL后端，及部分 React+Redux, Vue2.0, 小程序等工程化前端开发经验。"
         },
         "4":{
             "id":"4",
-            "name":"Design",
+            "name":"设计",
             "content":"热爱设计, 重视设计。熟练掌握 Axure, Adobe XD, PS, AI, Sketch, Google Skechup 等设计工具，产出产品原型或设计作品。"
         }
     }

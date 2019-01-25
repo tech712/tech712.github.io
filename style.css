@@ -139,10 +139,10 @@ p{
 #experiences1{
     background: #fff url("./img/iphone1.png") no-repeat;  
     background-position: 20% bottom;
-    background-size:45% auto;
+    background-size:40% auto;
 }
 #experiences1 .contents{
-    width:35%;
+    width:45%;
     margin-left:50%;
 }
 #experiences2{
@@ -151,7 +151,7 @@ p{
     background-size:45% auto;
 }
 #experiences2 .contents{
-    width:35%;
+    width:40%;
     margin-left:10%;
 }
 #experiences3{
@@ -160,7 +160,7 @@ p{
     background-size:45% auto;
 }
 #experiences3 .contents{
-    width:35%;
+    width:40%;
     margin-left:50%;
 }
 #experiences4{
@@ -169,7 +169,7 @@ p{
     background-size:45% auto;
 }
 #experiences4 .contents{
-    width:35%;
+    width:40%;
     margin-left:10%;
 }
 .experiences h4{
@@ -183,7 +183,7 @@ p{
     background-size:40% auto;
 }
 #experiences5 .contents{
-    width:35%;
+    width:40%;
     margin-left:50%;
 }
 .experiences a{
