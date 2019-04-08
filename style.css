@@ -136,9 +136,32 @@ p{
 
 
 /* ---------- experiences ---------- */
+#experiences0{
+    background:url("./img/my.png") no-repeat;  
+    background-position: center 90%;
+    background-size:80% auto;
+}
+#experiences0 .contents{
+    width:80%;
+    margin-left:10%;
+    margin-top:-25%;
+}
+#experiences0 .contents div{
+    font-size: 12px;
+    background: #fff;
+    height:18px;
+    line-height: 18px;
+    text-align: center;
+    padding:5px 10px;
+    float: left;
+    margin-right:7px;
+    margin-bottom:7px;
+    border-radius:20px;
+    box-shadow:0px 0px 3px #d8d8d8;
+}
 #experiences1{
     background: #fff url("./img/iphone1.png") no-repeat;  
-    background-position: 20% bottom;
+    background-position: 20% center;
     background-size:40% auto;
 }
 #experiences1 .contents{
@@ -197,6 +220,15 @@ p{
 }
 
 @media screen and (max-width:1000px){
+    #experiences0{
+        background-position: center 90%;
+        background-size:90% auto;
+        align-items:flex-start;
+    }
+    #experiences0 .contents{
+        width:90%;
+        margin:3em auto;
+    }
     #experiences1{
         background-position: right bottom;
         background-size:60% auto;
