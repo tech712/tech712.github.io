@@ -46,9 +46,9 @@ p{
 .nav a:hover{
     color:#747474;
 }
-.contents li{
+.contents p li{
     list-style: circle;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @media screen and (max-width:1000px){
