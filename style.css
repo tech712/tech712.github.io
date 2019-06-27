@@ -48,7 +48,7 @@ p{
 }
 .contents p li{
     list-style: circle;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width:1000px){
