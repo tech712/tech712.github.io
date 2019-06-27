@@ -46,7 +46,7 @@ p{
 .nav a:hover{
     color:#747474;
 }
-.contents p li{
+.experiences li{
     list-style: circle;
     font-size: 0.8em;
 }
@@ -172,6 +172,7 @@ p{
     width:45%;
     margin-left:50%;
 }
+
 #experiences2{
     background:url("./img/iphone2.png") no-repeat;  
     background-position: right bottom;
