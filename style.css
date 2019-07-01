@@ -359,9 +359,14 @@ p{
     width:90%;
     margin:5em auto;
 }
+#photography p{
+    font-size:0.7em;
+    margin-top:0.5em;
+    margin-bottom:3em;
+    text-align: center;
+}
 #photography h1{
     text-align: center;
-    margin-bottom:1em;
 }
 #photography li{
     float: left;
