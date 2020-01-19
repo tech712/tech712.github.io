@@ -272,8 +272,8 @@ p{
         margin:3em auto;
     }
     #experiences5{
-        background-position: center bottom;
-        background-size:80% auto;
+        background-position: right bottom;
+        background-size:60% auto;
         align-items:flex-start ;
     }
     #experiences5 .contents{
