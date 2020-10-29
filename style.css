@@ -155,29 +155,35 @@ p{
 
 
 /* ---------- experiences ---------- */
-#experiences0{
-    background:url("./img/my.png") no-repeat;  
-    background-position: center 90%;
-    background-size:80% auto;
-}
+
 #experiences0 .contents{
     width:80%;
     margin-left:10%;
-    margin-top:-25%;
 }
-#experiences0 .contents div{
+#experiences0 .contents h4{
+    opacity: 0.5;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+#experiences0 .contents .tags{
+    float: left;
+    width: 100%;
+}
+#experiences0 .contents .tag{
     font-size: 12px;
     background: #fff;
     height:18px;
     line-height: 18px;
     text-align: center;
-    padding:5px 10px;
+    padding:10px 20px;
     float: left;
     margin-right:7px;
     margin-bottom:7px;
     border-radius:20px;
     box-shadow:0px 0px 3px #d8d8d8;
 }
+
 #experiences1{
     background: #fff url("./img/iphone1.png") no-repeat;  
     background-position: 20% center;
